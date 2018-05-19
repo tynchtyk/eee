@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pc.kettik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/car3"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/car3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Explanation_ru">
+        </activity>
+
+        <activity android:name=".Explanation_ru2">
+        </activity>
+
+        <activity android:name=".Explanation_ru3">
+        </activity>
+
+        <activity android:name=".Registration_ru">
+        </activity>
+
+        <activity android:name=".Registration_ru2">
+        </activity>
+
+        <activity android:name=".Choose_user_ru">
+        </activity>
+
+        <activity android:name=".Pas_ru">
+        </activity>
+
+        <activity android:name=".Vod_ru">
+        </activity>
+
+        <activity android:name=".Seacrh_vod_ru">
+        </activity>
+
+        <activity android:name=".Seacrh_pas_ru">
+        </activity>
+        <activity android:name=".Add_trip_ru">
+        </activity>
+        <activity android:name=".Add_request_ru">
+        </activity>
+    </application>
+
+</manifest>
