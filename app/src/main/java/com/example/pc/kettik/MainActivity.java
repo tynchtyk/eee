@@ -19,5 +19,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        Button en_lang = (Button) findViewById(R.id.eng);
+        en_lang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, Explanation_en.class);
+                startActivity(i);
+            }
+        });
     }
 }

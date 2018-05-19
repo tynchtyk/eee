@@ -46,10 +46,49 @@
 
         <activity android:name=".Seacrh_pas_ru">
         </activity>
+
         <activity android:name=".Add_trip_ru">
         </activity>
+
         <activity android:name=".Add_request_ru">
         </activity>
+
+        <activity android:name=".Explanation_en">
+        </activity>
+
+        <activity android:name=".Explanation_en2">
+        </activity>
+
+        <activity android:name=".Explanation_en3">
+        </activity>
+
+        <activity android:name=".Registration_en">
+        </activity>
+
+        <activity android:name=".Registration_en2">
+        </activity>
+
+        <activity android:name=".Choose_user_en">
+        </activity>
+
+        <activity android:name=".Pas_en">
+        </activity>
+
+        <activity android:name=".Vod_en">
+        </activity>
+
+        <activity android:name=".Seacrh_vod_en">
+        </activity>
+
+        <activity android:name=".Seacrh_pas_en">
+        </activity>
+
+        <activity android:name=".Add_trip_en">
+        </activity>
+
+        <activity android:name=".Add_request_en">
+        </activity>
+
     </application>
 
 </manifest>
